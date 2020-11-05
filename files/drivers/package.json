@@ -1,0 +1,19 @@
+{
+  "name": "drivers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "drivers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "fake": "^0.2.2",
+    "faker": "^5.1.0",
+    "socket.io-client": "^2.3.1"
+  }
+}

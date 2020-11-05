@@ -1,0 +1,27 @@
+{
+  "name": "CAPS-REFACTOR",
+  "version": "1.0.0",
+  "description": "Doing caps in the correct file structure and with the right inout from TA",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401Repo/CAPS-REFACTOR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401Repo/CAPS-REFACTOR/issues"
+  },
+  "homepage": "https://github.com/401Repo/CAPS-REFACTOR#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
