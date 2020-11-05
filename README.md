@@ -11,7 +11,7 @@ Phase 3, we’ll be changing the underlying networking implementation of our CAP
 
 Everything is in its own folder. Testing the payload as it is the one thing we are creating outside of our logger. Updating UML.
 
-![uml](https://github.com/401Repo/CAPS/blob/main/Image%20from%20iOS%20(5).jpg)
+![uml](https://github.com/401Repo/CAPS-REFACTOR/blob/main/Image%20from%20iOS%20(6).jpg)
 
 ### Lab 17 update:
 
