@@ -1,15 +1,15 @@
 'use strict';
 
-require('dotenv').config();
 const chalk = require('chalk');
 const port = 3000;
 const io = require('socket.io')(port);
+
 
 io.on('connection', (socket) => {
   console.log('CONNECTED SERVER', socket.id);
 });
 
-//nameserver
+///////////////////// nameserver
 const caps = io.of('/caps');
 
 caps.on('connection', (socket) => {
@@ -38,7 +38,7 @@ caps.on('connection', (socket) => {
 
 });
 
-// Logger
+
 
 function loggerMessage(event, payload) {
   console.log(chalk.inverse.blueBright(event), ': ');
